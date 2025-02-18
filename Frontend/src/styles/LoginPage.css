@@ -1,0 +1,276 @@
+.auth-container {
+    max-width: 400px; /* Set a max width for the container */
+    margin: 50px auto; /* Center the container */
+    padding: 20px; /* Add padding */
+    border: 1px solid #ccc; /* Light border for the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    background-color: #fff; /* White background */
+}
+
+h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Dark color for the heading */
+}
+.auth-container {
+    max-width: 400px; /* Set a max width for the container */
+    margin: 50px auto; /* Center the container */
+    padding: 20px; /* Add padding */
+    border: 1px solid #ccc; /* Light border for the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    background-color: #fff; /* White background */
+    display: flex; /* Make it a flex container */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+}
+
+h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Dark color for the heading */
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+    width: 100%; /* Make form groups full width */
+}
+
+label {
+    display: block; /* Block display for labels */
+    margin-bottom: 5px; /* Space below labels */
+    font-weight: bold; /* Bold labels */
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Light border for inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+    font-size: 14px; /* Font size for inputs */
+    margin-bottom: 10px; /* Add some space below inputs */
+}
+
+button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding inside button */
+    background-color: #007bff; /* Bootstrap primary color */
+    color: #fff; /* White text */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners for button */
+    font-size: 16px; /* Font size for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 10px; /* Add some space above the button */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darken button on hover */
+}
+
+.error-message {
+    color: #d9534f; /* Bootstrap danger color for error messages */
+    text-align: center; /* Center error messages */
+    margin-top: 10px; /* Add some space above error messages */
+}.auth-container {
+    max-width: 400px; /* Set a max width for the container */
+    margin: 50px auto; /* Center the container */
+    padding: 20px; /* Add padding */
+    border: 1px solid #ccc; /* Light border for the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+    background-color: #f9f9f9; /* Light gray background */
+    display: flex; /* Make it a flex container */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+}
+
+h2 {
+    text-align: center; /* Center the heading */
+    color: #3498db; /* Blue color for the heading */
+    margin-bottom: 20px; /* Add some space below the heading */
+    font-weight: bold; /* Bold heading */
+    font-size: 24px; /* Larger font size for heading */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+    width: 100%; /* Make form groups full width */
+}
+
+label {
+    display: block; /* Block display for labels */
+    margin-bottom: 5px; /* Space below labels */
+    font-weight: bold; /* Bold labels */
+    color: #666; /* Dark gray color for labels */
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Light border for inputs */
+    border-radius: 5px; /* Rounded corners for inputs */
+    font-size: 16px; /* Larger font size for inputs */
+    margin-bottom: 10px; /* Add some space below inputs */
+    background-color: #f2f2f2; /* Light gray background for inputs */
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #3498db; /* Blue border color on focus */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect on focus */
+}
+
+button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding inside button */
+    background-color: #3498db; /* Blue background color for button */
+    color: #fff; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners for button */
+    font-size: 18px; /* Larger font size for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 10px; /* Add some space above the button */
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue background color on hover */
+}
+
+.error-message {
+    color: #d9534f; /* Bootstrap danger color for error messages */
+    text-align: center; /* Center error messages */
+    margin-top: 10px; /* Add some space above error messages */
+    font-size: 16px; /* Larger font size for error messages */
+}.auth-container {
+    max-width: 400px; /* Set a max width for the container */
+    margin: 50px auto; /* Center the container */
+    padding: 20px; /* Add padding */
+    border: 1px solid #ddd; /* Light border for the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    background-color: #f7f7f7; /* Light gray background */
+    display: flex; /* Make it a flex container */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+}
+
+h2 {
+    text-align: center; /* Center the heading */
+    color: #8e44ad; /* Purple color for the heading */
+    margin-bottom: 20px; /* Add some space below the heading */
+    font-weight: bold; /* Bold heading */
+    font-size: 24px; /* Larger font size for heading */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+    width: 100%; /* Make form groups full width */
+}
+
+label {
+    display: block; /* Block display for labels */
+    margin-bottom: 5px; /* Space below labels */
+    font-weight: bold; /* Bold labels */
+    color: #666; /* Dark gray color for labels */
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Light border for inputs */
+    border-radius: 5px; /* Rounded corners for inputs */
+    font-size: 16px; /* Larger font size for inputs */
+    margin-bottom: 10px; /* Add some space below inputs */
+    background-color: #fff; /* White background for inputs */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05); /* Subtle shadow effect for inputs */
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #8e44ad; /* Purple border color on focus */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect on focus */
+}
+
+button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding inside button */
+    background-color: #8e44ad; /* Purple background color for button */
+    color: #fff; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners for button */
+    font-size: 18px; /* Larger font size for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 10px; /* Add some space above the button */
+}
+
+button:hover {
+    background-color: #7a288a; /* Darker purple background color on hover */
+}
+
+.error-message {
+    color: #e74c3c; /* Red color for error messages */
+    text-align: center; /* Center error messages */
+    margin-top: 10px; /* Add some space above error messages */
+    font-size: 16px; /* Larger font size for error messages */
+}
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+label {
+    display: block; /* Block display for labels */
+    margin-bottom: 5px; /* Space below labels */
+    font-weight: bold; /* Bold labels */
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Light border for inputs */
+    border-radius: 4px; /* Rounded corners for inputs */
+    font-size: 14px; /* Font size for inputs */
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove outline */
+}
+
+button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding inside button */
+    background-color: #007bff; /* Bootstrap primary color */
+    color: #fff; /* White text */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners for button */
+    font-size: 16px; /* Font size for button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darken button on hover */
+}
+
+.error-message {
+    color: #d9534f; /* Bootstrap danger color for error messages */
+    text-align: center; /* Center error messages */
+}
+
+.register-link {
+    text-align: center; /* Center the register link */
+    margin-top: 10px; /* Space above the link */
+}
+
+.register-link a {
+    color: #007bff; /* Bootstrap primary color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.register-link a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

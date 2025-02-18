@@ -1,0 +1,56 @@
+/* MyContacts.css */
+
+body {
+    font-family: 'Roboto', sans-serif; /* Font for the entire application */
+    background-color: #f4f4f9; /* Light background color */
+    color: #333; /* Text color */
+}
+
+/* Container for the contacts list */
+.my-contacts {
+    max-width: 600px; /* Maximum width for the contacts list */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Padding around the container */
+    background-color: white; /* White background for the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Title */
+.my-contacts h2 {
+    text-align: center; /* Center the title */
+    color: #007bff; /* Title color */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+/* Style for the contact cards */
+.contact-card {
+    background-color: #f8f9fa; /* Light background for contact cards */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px; /* Padding inside the card */
+    margin-bottom: 15px; /* Space between cards */
+    transition: box-shadow 0.3s ease; /* Smooth shadow transition */
+}
+
+/* Hover effect for contact cards */
+.contact-card:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+/* Style for contact names */
+.contact-card h3 {
+    color: #333; /* Dark text color for names */
+    margin-bottom: 10px; /* Space below names */
+}
+
+/* Style for contact information */
+.contact-card p {
+    margin: 5px 0; /* Space between paragraphs */
+}
+
+/* Error message styling */
+.my-contacts div {
+    color: rgb(52, 73, 188); /* Red color for error messages */
+    text-align: center; /* Center error messages */
+}

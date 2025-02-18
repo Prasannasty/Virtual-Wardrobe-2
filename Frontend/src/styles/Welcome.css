@@ -1,0 +1,134 @@
+/* General Styles for the Card */
+.item-card, .step-card {
+  width: 30%; /* Make the cards medium-sized */
+  aspect-ratio: 4 / 3; /* Set the card's aspect ratio */
+  border-radius: 8px;
+  position: relative;
+  cursor: pointer;
+  margin: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.item-card .image-box, .step-card .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.item-card .image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: inherit;
+  transition: ease-in-out;
+}
+
+/* Hover Effects */
+.item-card::after, .step-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 2px solid white;
+  border-radius: inherit;
+  opacity: 0;
+  transition: 0.4s ease-in-out;
+}
+
+.item-card:hover img, .step-card:hover .icon {
+  filter: grayscale(1) brightness(0.4);
+}
+
+.item-card:hover::after, .step-card:hover::after {
+  opacity: 1;
+  inset: 20px;
+}
+
+.content {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.item-card:hover .content, .step-card:hover .content {
+  opacity: 1;
+}
+
+h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #070707;
+  font-weight: bold;
+}
+
+p {
+  font-size: 0.9em;
+  color: #fff;
+  line-height: 1.4;
+  padding: 0 10px;
+}
+
+.project-title {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+.features-section {
+  padding: 2rem;
+}
+
+.featured-items {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(206, 38, 38, 0.1);
+}
+
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+  gap: 20px; /* Add space between items */
+  justify-items: center; /* Center items within each grid cell */
+  align-items: center; /* Center items vertically */
+}
+
+
+button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 30px;
+  background-color: #74bbeb;
+  color: rgb(26, 24, 24);
+  border: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+@media (max-width: 768px) {
+  .item-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+  }
+}
+
+@media (max-width: 480px) {
+  .item-grid {
+    grid-template-columns: 1fr; /* 1 card per row */
+  }
+}
+.item-card:hover img {
+  transform: scale(1.05); /* Zoom the image slightly */
+}

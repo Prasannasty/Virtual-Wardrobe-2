@@ -1,0 +1,26 @@
+/* Community Page Styles */
+.community-page {
+    max-width: 800px; /* Maximum width for the community page */
+    margin: 0 auto; /* Center the page */
+    padding: 20px; /* Padding around the content */
+    background-color: #f4f4f9; /* Background color */
+}
+
+.community-page h2 {
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Margin below the title */
+}
+
+/* Item List Styles */
+.item-list {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Center align the items */
+    gap: 20px; /* Space between items */
+}
+
+/* Ensure each item card has a consistent style */
+.item-list .clothing-item-card {
+    width: 100%; /* Take full width */
+    max-width: 600px; /* Max width for each card */
+}

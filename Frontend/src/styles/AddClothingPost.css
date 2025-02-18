@@ -1,0 +1,99 @@
+/* AddClothingPost.css */
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #f4f4f9, #d6e4f0); /* Subtle gradient background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full height viewport */
+}
+
+/* Container for the form */
+.add-clothing-post-container {
+    width: 100%;
+    max-width: 600px; /* Maximum width for the form */
+    padding: 30px; /* Padding around the form */
+    background: white; /* White background for the form */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Enhanced shadow for depth */
+    animation: fadeIn 0.5s ease-in-out; /* Smooth fade-in animation */
+}
+
+/* Title */
+.add-clothing-post-container h2 {
+    text-align: center; /* Center the title */
+    color: #4a90e2; /* Softer blue color for the title */
+    font-size: 1.8rem; /* Larger font size for the title */
+    margin-bottom: 25px; /* Space below the title */
+    font-weight: bold; /* Bold title */
+}
+
+/* Form elements */
+.add-clothing-post-container label {
+    font-weight: 500; /* Medium weight labels */
+    margin-bottom: 8px; /* Space below labels */
+    display: block; /* Block display for labels */
+    color: #555; /* Subtle text color */
+}
+
+.add-clothing-post-container input,
+.add-clothing-post-container textarea,
+.add-clothing-post-container select {
+    width: 100%; /* Full width for inputs */
+    padding: 12px; /* Padding inside inputs */
+    margin-bottom: 20px; /* Space below inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle inner shadow */
+}
+
+/* Focus effect */
+.add-clothing-post-container input:focus,
+.add-clothing-post-container textarea:focus,
+.add-clothing-post-container select:focus {
+    border-color: #4a90e2; /* Change border color on focus */
+    outline: none; /* Remove outline */
+    box-shadow: 0 0 8px rgba(74, 144, 226, 0.4); /* Glow effect on focus */
+}
+
+/* Submit button styling */
+.add-clothing-post-container button {
+    background: linear-gradient(135deg, #4a90e2, #007bff); /* Gradient button color */
+    color: white; /* Button text color */
+    padding: 12px; /* Padding inside the button */
+    border: none; /* Remove border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1rem; /* Comfortable font size */
+    font-weight: bold; /* Bold button text */
+    transition: background 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+    width: 100%; /* Full width for the button */
+}
+
+/* Hover and active effects for button */
+.add-clothing-post-container button:hover {
+    background: linear-gradient(135deg, #0056b3, #4a90e2); /* Slightly darker gradient on hover */
+    transform: translateY(-2px); /* Lift effect */
+}
+
+.add-clothing-post-container button:active {
+    transform: translateY(0); /* Reset transform on click */
+}
+
+/* Add subtle animation to the form container */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
